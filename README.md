@@ -44,35 +44,32 @@ Eccentricity Range: 0.0 -> 1.0
 
 The BSE package contains the following FORTRAN files: 
 
-bse.f       - Main routine. Evolves one binary and creates data files. 
-const_bse.h - parameter file 
-evolv2.f    - routine that controls the evolution of the binary 
-binary.in   - input file for bse.f 
-comenv.f    - common envelope evolution
-corerd.f    - estimates the core radius of a giant-like star
-deltat.f    - determines stellar evolution update timestep 
-dgcore.f    - determines the outcome when two degenerate cores merge 
-gntage.f    - calculates parameters of new star resulting from a merger 
-hrdiag.f    - decides which evolution stage the star is
+* bse.f       - Main routine. Evolves one binary and creates data files. 
+* const_bse.h - parameter file 
+* evolv2.f    - routine that controls the evolution of the binary 
+* binary.in   - input file for bse.f 
+* comenv.f    - common envelope evolution
+* corerd.f    - estimates the core radius of a giant-like star
+* deltat.f    - determines stellar evolution update timestep 
+* dgcore.f    - determines the outcome when two degenerate cores merge 
+* gntage.f    - calculates parameters of new star resulting from a merger 
+* hrdiag.f    - decides which evolution stage the star is
               currently at and then the appropriate luminosity, radius
               and core mass are calculated 
-instar.f    - sets the collision matrix
-kick.f      - generates supernova kick and adjusts orbital parameters 
-mix.f       - models stellar collisions
-mlwind.f    - contains the mass loss prescription 
-mrenv.f     - calculates envelope parameters
-ran3.f      - random number generator
-rl.f        - calculates Roche-lobe radius 
-star.f      - derives the landmark timescales and luminosities 
+* instar.f    - sets the collision matrix
+* kick.f      - generates supernova kick and adjusts orbital parameters 
+* mix.f       - models stellar collisions
+* mlwind.f    - contains the mass loss prescription 
+* mrenv.f     - calculates envelope parameters
+* ran3.f      - random number generator
+* rl.f        - calculates Roche-lobe radius 
+* star.f      - derives the landmark timescales and luminosities 
               that divide the various evolution stages. 
-zcnsts.f    - sets all the constants of the formulae which depend on 
+* zcnsts.f    - sets all the constants of the formulae which depend on 
               metallicity (there is no Z dependence elsewhere) 
-zdata.h     - contains all the coefficient values for zcnsts 
-zfuncs.f    - all the formulae as a collection of separate functions 
-
-and 
-
-Makefile  - f77 compiler. Use command "make bse"
+* zdata.h     - contains all the coefficient values for zcnsts 
+* zfuncs.f    - all the formulae as a collection of separate functions
+* Makefile  - f77 compiler. Use command "make bse"
 
 ************************************************************************
 
