@@ -109,7 +109,6 @@ PROBLEMS: if the program stops with a 'FATAL ERROR' then more information
 ************************************************************************
 
 Definitions of the evolution types for the stars:  
-------------------------------------------------------------
  KW
 * 0 - deeply or fully convective low mass MS star
 * 1 - Main Sequence star
@@ -127,7 +126,6 @@ Definitions of the evolution types for the stars:
 * 13 - Neutron Star
 * 14 - Black Hole
 * 15 - Massless Supernova
-*       ------------------------------------------------------------
 
 Good luck!
 
