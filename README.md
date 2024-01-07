@@ -29,7 +29,7 @@ reading the comments in the programs, can be addressed to:
   jhurley@astro.swin.edu.au  
 
 There have been some updates to the code subsequent to the publication 
-of the BSE paper and these are documented in the header of the [evolve2.f](./evolve2.f)
+of the BSE paper and these are documented in the header of the [evolv2.f](./evolv2.f)
 routine. 
 
 ************************************************************************
